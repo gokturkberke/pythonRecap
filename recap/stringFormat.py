@@ -17,3 +17,7 @@ print("the result is {n:1.6}".format(n=number))
 sonuc = " ".join(name)
 print(sonuc) # B e r k e
 #sonuc = yazi.replace("e","a") = #barka
+#-----------------------------------
+#tuple
+thistuple = (1,2,"alti",False)
+#tuplelar () ile kullanilir degistirilemez index islemi yapilir
