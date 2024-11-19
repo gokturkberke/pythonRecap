@@ -21,3 +21,28 @@ print(sonuc) # B e r k e
 #tuple
 thistuple = (1,2,"alti",False)
 #tuplelar () ile kullanilir degistirilemez index islemi yapilir
+#-----------------------------------
+#{} dictionary 
+plakalar = {"izmir":35,
+            "istanbul":34
+            }
+
+print(plakalar["izmir"])  # 35
+#elemanekleme
+plakalar["Eskisehir"] = 26
+#plakalar.clear() icini bosaltir del plakalar["izmir"] izmiri siler
+#plaka = plakalar.copy()
+#guncelleme ise plakalar.update({"izmir" :35}) gibi yapilir
+#-----------------------------------
+#sets indexlenemez siralanmaz
+
+markalar = {"Audi","Mercedes","Bmw","Honda"}
+markalar.add("Opel") #remove'u var
+#-----------------------------------
+x=["python","jacascript"]
+y=["python","javascript"]
+
+x=y #bellekte ayni adreste bu bilgiler tutuluyo
+y[0]="html"
+print(x,y) 
+#yani y degisince x de degisiyor
