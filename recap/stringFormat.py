@@ -79,3 +79,12 @@ for index,value in enumerate(diller):
 # 3: h
 # 4: o
 # 5: n
+#-----------------------------------
+#zip metodu iki listenin elemanlarini birlestirmek icin kullanilir
+list1 = [1, 2, 3]
+list2 = ['a', 'b']
+
+zipped = zip(list1, list2)
+print(list(zipped))
+#eger ikisinin uzunluk farkliysa kisaya gore birlestirir
+#[(1, 'a'), (2, 'b')]
