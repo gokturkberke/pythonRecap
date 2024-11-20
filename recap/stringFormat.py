@@ -46,3 +46,36 @@ x=y #bellekte ayni adreste bu bilgiler tutuluyo
 y[0]="html"
 print(x,y) 
 #yani y degisince x de degisiyor
+#-----------------------------------
+x=y=[1,2,3,4]
+z=[1,2,3,4]
+print(x is z) #ayni olmalarina ragmen false yazdirir cunku adresleri farkli
+#-----------------------------------
+r = range(10)
+
+sonucc = list(r) # [0,1...9]
+
+diller = ["Python","Javascript","Flutter"]
+
+index = 0
+for i in diller:
+    print(f"{index+1} - {diller[index]}")
+    index += 1
+    
+#obje = enumerate(diller)
+
+#print(type(obje)) -> enumarate
+
+for index,value in enumerate(diller):
+    print(f"{index}-{value}")
+
+#for ile yaptigimiz seyin aynisini yapar
+#enumarate bir iterable uzerinde döngü kurarken her elemanın indeksini ve değerini aynı anda elde etmemizi saglar
+#for index, char in enumerate("Python"):
+  #  print(f"{index}: {char}")
+# 0: P
+# 1: y
+# 2: t
+# 3: h
+# 4: o
+# 5: n
