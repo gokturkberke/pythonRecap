@@ -48,3 +48,23 @@ isimler = ["ali","arda","mehmet","didem"]
 
 sonuc = [isim[0] == "a" for isim in isimler]  #true true false false 
 sonuc = any([isim[0] == "a" for isim in isimler]) #herhangi birinin true olmasi yeterlidir.
+#--------------------------------------------------------------------------------
+araclar = [
+    {"title" : "Audi A4", "price" : 30000},
+    {"title" : "BMW 5", "price" : 40000},
+    {"title" : "Mercedes C180", "price" : 25000}
+]
+sonuc = min(araclar, key = lambda x : x["price"])
+print(sonuc) #Çıktı: {'title': 'Mercedes C180', 'price': 25000}
+sonuc = min(araclar, key = lambda x : x["price"])["title"] #Çıktı: Mercedes C180
+#--------------------------------------------------------------------------------
+urunler = [
+    {"title" : "kitap a", "price" : 200},
+    {"title" : "kitap b", "price" : 300},
+    {"title" : "kitap c", "price" : 400}
+]
+
+toplamFiyat = sum([urun["price"] for urun in urunler])
+sonuc = toplamFiyat
+print(sonuc) #Çıktı: 900
+#--------------------------------------------------------------------------------
