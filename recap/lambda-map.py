@@ -34,3 +34,17 @@ sayilar = [1, 2, 3, 4, 5, 6]
 cift_sayilar = list(filter(cift_mi, sayilar))
 print(cift_sayilar)  # Çıktı: [2, 4, 6]
 #--------------------------------------------------------------------------------
+#any - all fonksiyonları
+sonuc = all([True , False,True])
+print(sonuc) #False(hepsinin true olmasi lazim true olmasi icin)
+#any ise herhangi birinin true olmasi true olmasina yeterlidir.
+
+sayilar = [0,1,4,7,8,10,15]
+sonuc = [bool(sayi) for sayi in sayilar]#bool fonksiyonu sayinin 0 olup olmadigini kontrol eder.
+print(sonuc) #False, True, True, True, True, True, True
+sonuc = any([bool(sayi) for sayi in sayilar]) #herhangi birinin true olmasi yeterlidir.
+
+isimler = ["ali","arda","mehmet","didem"]
+
+sonuc = [isim[0] == "a" for isim in isimler]  #true true false false 
+sonuc = any([isim[0] == "a" for isim in isimler]) #herhangi birinin true olmasi yeterlidir.
