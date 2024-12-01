@@ -1,0 +1,6 @@
+1-Samsung
+2-LG
+3-Nokia
+4-APPLE
+5-Oppo
+6-Huawei
