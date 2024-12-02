@@ -4,14 +4,14 @@ import json
 
 
 with open("user.json") as file:
-    data = json.load(file)
+    data = json.load(file) #json.load() fonksiyonu ile json dosyasını okuyup python veri tipine çeviriyoruz.
     print(data)
     print(type(data)) #<class 'dict'>
     print(data["userName"]) #BerkeKorkut
     print(data["age"]) #20
 
 #json-string
-
+#Ikinci yol
 data = """
 {
     "usernName": "BerkeKorkut",
@@ -23,7 +23,7 @@ data = """
     "isStudent": true
 }
 """
-data = json.loads(data)
+data = json.loads(data) #json.loads() fonksiyonu ile json stringi python veri tipine çeviriyoruz.
 
 print(data)
 print(type(data)) #<class 'dict'>

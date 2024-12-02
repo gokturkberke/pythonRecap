@@ -14,8 +14,8 @@ urunEkle("LG 75",13000,True,["televizyon","elektronik"])
 def urunleriGetir():
     import json
     with open("urunler.json") as file:
-        urun = json.load(file)
-    kategoriler = " ".join([kategori for kategori in urun['kategoriler']])
+        urun = json.load(file) # Deserialize json dosyasindaki veriyi sozluk veri tipine donusturur
+    kategoriler = " ".join([kategori for kategori in urun['kategoriler']]) # List Comprehension
         
     print(f"Ürün Adı: {urun['urunAdi']} Fiyat: {urun['fiyat']} Stokta mı: {urun['stoktami']} Kategoriler: {urun['kategoriler']}")
 
