@@ -28,23 +28,3 @@ This repository serves as a recap of fundamental and advanced Python concepts, i
 ### **6. CSV Files for Data Handling**
 - **NetflixOriginals.csv, cars.csv, films.csv**: Sample CSV datasets for working with structured data in Python.
 
-## Installation & Usage
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/gokturkberke/python_recap.git
-   ```
-2. Navigate to the repository:
-   ```sh
-   cd python_recap
-   ```
-3. Install dependencies (if required):
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. Run the Python scripts as needed:
-   ```sh
-   python filename.py
-   ```
-## License
-This project is open-source and available under the MIT License.
-
