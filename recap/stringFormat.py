@@ -10,19 +10,25 @@ print("My name is {1} {0}".format(name,surname))
 print(f"My name is {name} {surname} and I'm {age} years old.")
 #farkli bir formatlama 
 
+gel_yaz = " gelecegi_yazanlar "
+gel_yaz.strip() #bosluklari siler kelimedeki(default)
+gel_yaz = "*gelecegi_yazanlar*"
+gel_yaz.strip("*") #kelimenin basindaki ve sonundaki * siler
+
 number = 5/3
 print("the result is {n:1.6}".format(n=number))
 #n:n1.6 number'in nokta dahil noktadan sonra 6 hane
 #the result is 1.66667
-sonuc = " ".join(name)
+
+sonuc = " ".join(name) #her bir karakter arasina bosluk koyar
 print(sonuc) # B e r k e
-#sonuc = yazi.replace("e","a") = #barka
+#sonuc = name.replace("e","a") = #barka
 #-----------------------------------
 #tuple
 thistuple = (1,2,"alti",False)
 #tuplelar () ile kullanilir degistirilemez index islemi yapilir
 #-----------------------------------
-#{} dictionary 
+#{} dictionary degistirilebilir ama index islemi yapilamaz
 plakalar = {"izmir":35,
             "istanbul":34
             }
