@@ -45,10 +45,6 @@ This repository serves as a recap of fundamental and advanced Python concepts, i
    ```sh
    python filename.py
    ```
-
-## Contributing
-Feel free to contribute by adding new Python concepts or improving existing ones.
-
 ## License
 This project is open-source and available under the MIT License.
 
