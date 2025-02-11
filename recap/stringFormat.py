@@ -33,6 +33,8 @@ plakalar = {"izmir":35,
             "istanbul":34
             }
 
+#eleman plakalar["izmir"]  seklinde secilir sozluklerde
+
 print(plakalar["izmir"])  # 35
 #elemanekleme
 plakalar["Eskisehir"] = 26
@@ -40,10 +42,11 @@ plakalar["Eskisehir"] = 26
 #plaka = plakalar.copy()
 #guncelleme ise plakalar.update({"izmir" :35}) gibi yapilir
 #-----------------------------------
-#sets indexlenemez siralanmaz
+#sets indexlenemez siralanmaz degerler essizdir
 
 markalar = {"Audi","Mercedes","Bmw","Honda"}
 markalar.add("Opel") #remove'u var
+#discard fonksiyonu farkli olarak hata vermez remove da eleman yoksa hata verir
 #-----------------------------------
 x=["python","jacascript"]
 y=["python","javascript"]
@@ -52,6 +55,9 @@ x=y #bellekte ayni adreste bu bilgiler tutuluyo
 y[0]="html"
 print(x,y) 
 #yani y degisince x de degisiyor
+
+#listelerde insert indexe gore append listenin sonuna ekler
+#remove son elemani siler pop indexe gore siler 
 #-----------------------------------
 x=y=[1,2,3,4]
 z=[1,2,3,4]
