@@ -77,5 +77,5 @@ def userInfo(**kwargs):
     for key,value in kwargs.items():
         print(f"{key} : {value}")
         print("\n")
-userInfo(username="berke",password ="123456",email="leventertunalilar@gmailcom") #key value
+userInfo(username="berke",password ="123456",email="berkekorkut@gmailcom") #key value
 #----------------------------------------

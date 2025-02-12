@@ -10,7 +10,7 @@ except:
     print("Invalid input")
 #----------------------------------------------
 #syntax error(Yazim hatasi)
-#print("berk"e) while True()): gibi hatalar
+#print("berk"e) while True(): gibi hatalar
 
 #type error
 # len(10) , 10 + "a" gibi hatalar

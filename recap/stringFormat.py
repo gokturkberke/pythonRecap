@@ -42,7 +42,7 @@ plakalar["Eskisehir"] = 26
 #plaka = plakalar.copy()
 #guncelleme ise plakalar.update({"izmir" :35}) gibi yapilir
 #-----------------------------------
-#sets indexlenemez siralanmaz degerler essizdir
+#sets indexlenemez degistirilebilir degerler essizdir
 
 markalar = {"Audi","Mercedes","Bmw","Honda"}
 markalar.add("Opel") #remove'u var

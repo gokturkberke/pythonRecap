@@ -2,7 +2,7 @@
 #Instance , Object
 
 class Arac:
-    pass
+    pass 
 
 arac1 = Arac()
 print(type(arac1)) # <class '__main__.Arac'>
@@ -15,7 +15,7 @@ p2=Products()
 p3=Products()
 listProducts = [p1,p2,p3]
 for p in listProducts:
-    print(p)
+    print(p) 
 #----------------------------
 class Product:
     def __init__(self,name,price,isActive=True): #isactive default olarak true
